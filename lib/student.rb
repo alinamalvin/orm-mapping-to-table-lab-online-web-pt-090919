@@ -33,5 +33,11 @@ class Student
   end
   
   def self.create(name:, grade:)
+    Student.create_table
+hello = Song.new("Hello", "25")
+ninety_nine_problems = Song.new("99 Problems", "The Black Album")
+ 
+hello.save
+ninety_nine_problems.save
 end 
 
