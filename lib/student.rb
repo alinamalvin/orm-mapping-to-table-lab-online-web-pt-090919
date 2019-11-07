@@ -36,5 +36,6 @@ class Student
     Student.create_table
     mark = Song.new("Mark", "3")
     mark.save
+    mark 
   end 
 
