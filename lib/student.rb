@@ -34,10 +34,9 @@ class Student
   
   def self.create(name:, grade:)
     Student.create_table
-hello = Song.new("Hello", "25")
-ninety_nine_problems = Song.new("99 Problems", "The Black Album")
+    mark = Song.new("Mark", "3")
  
-hello.save
+    Mark.save
 ninety_nine_problems.save
 end 
 
