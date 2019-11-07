@@ -34,8 +34,8 @@ class Student
   
   def self.create(name:, grade:)
     Student.create_table
-    mark = Song.new("Mark", "3")
-    mark.save
-    mark 
+    student = Student.new(name, grade)
+    student.save
+    student
   end 
 
