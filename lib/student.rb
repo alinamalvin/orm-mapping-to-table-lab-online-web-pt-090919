@@ -16,6 +16,8 @@ class Student
         )
         SQL
     DB[:conn].execute(sql) 
+    
+    def self.
   end
 end 
 
